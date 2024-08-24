@@ -1,0 +1,6 @@
+# Description: Configuration file for the YOLOv3 model
+# Add the path according to the configuration file location
+modelConfigPath: "resources/model/yolov3.cfg"
+modelWeightPath: "resources/model/yolov3.weights"
+modelClassesPath: "resources/model/coco_classes.txt"
+modelClassesColorsPath: "resources/model/coco_colors.txt"
