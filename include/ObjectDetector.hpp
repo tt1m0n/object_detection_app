@@ -46,11 +46,11 @@ struct ObjectDetectorConfig {
                     frame_collector_(frame_collector) {}
 };
 
-template <typename FrameType, typename InferenceInfoType>
+template <typename FrameType, typename BlobType, typename InferenceInfoType>
 class ObjectDetector
 {
     public:
-        ObjectDetector(std::unique_ptr<IFramePreprocessor<FrameType>> frame_preprocessor,
+        ObjectDetector(std::unique_ptr<IFramePreprocessor<FrameType, BlobType>> frame_preprocessor,
                        std::unique_ptr<IInferenceEngine<FrameType, InferenceInfoType>> inference_engine,
                        std::unique_ptr<IFramePostprocessor<FrameType, InferenceInfoType>> frame_post_processor,
                        ObjectDetectorConfig<FrameType>& config);
@@ -70,15 +70,15 @@ class ObjectDetector
         void run();
 
     private:
-        std::unique_ptr<IFramePreprocessor<FrameType>> frame_preprocessor_;
+        std::unique_ptr<IFramePreprocessor<FrameType, BlobType>> frame_preprocessor_;
         std::unique_ptr<IInferenceEngine<FrameType, InferenceInfoType>> inference_engine_;
         std::unique_ptr<IFramePostprocessor<FrameType, InferenceInfoType>> frame_postprocessor_;
         ObjectDetectorConfig<FrameType>& cfg_;
 };
 
-template <typename FrameType, typename InferenceInfoType>
-ObjectDetector<FrameType, InferenceInfoType>::ObjectDetector(
-        std::unique_ptr<IFramePreprocessor<FrameType>> frame_preprocessor,
+template <typename FrameType, typename BlobType, typename InferenceInfoType>
+ObjectDetector<FrameType, BlobType, InferenceInfoType>::ObjectDetector(
+        std::unique_ptr<IFramePreprocessor<FrameType, BlobType>> frame_preprocessor,
         std::unique_ptr<IInferenceEngine<FrameType,InferenceInfoType>> inference_engine,
         std::unique_ptr<IFramePostprocessor<FrameType, InferenceInfoType>> frame_post_processor,
         ObjectDetectorConfig<FrameType>& config)
@@ -87,8 +87,8 @@ ObjectDetector<FrameType, InferenceInfoType>::ObjectDetector(
           frame_postprocessor_(std::move(frame_post_processor)),
           cfg_(config) {}
 
-template <typename FrameType, typename InferenceInfoType>
-void ObjectDetector<FrameType, InferenceInfoType>::run() {
+template <typename FrameType, typename BlobType, typename InferenceInfoType>
+void ObjectDetector<FrameType, BlobType, InferenceInfoType>::run() {
     while (true) {
         if (cfg_.input_frame_queue_.empty() && cfg_.frame_collector_.is_done()) {
             cfg_.tracker_object_detector_done_ = true;
@@ -102,7 +102,7 @@ void ObjectDetector<FrameType, InferenceInfoType>::run() {
 
         if (!cfg_.input_frame_queue_.empty()) {
             const FrameType frame_ogininal = cfg_.input_frame_queue_.get();
-            FrameType blob = frame_preprocessor_->run(frame_ogininal);
+            BlobType blob = frame_preprocessor_->run(frame_ogininal);
 
             InferenceInfoType inference_res;
             inference_engine_->process(blob, inference_res);

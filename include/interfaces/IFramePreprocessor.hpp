@@ -9,12 +9,12 @@
  * 
  * @tparam FrameType The type of frame to be preprocessed (cv::Mat, cv::cuda::GpuMat, etc).
  */
-template <typename FrameType>
+template <typename FrameType, typename BlobType>
 class IFramePreprocessor
 {
     public:
         IFramePreprocessor() {};
-        virtual FrameType run(const FrameType& frame_type) = 0;
+        virtual BlobType run(const FrameType& frame_type) = 0;
         virtual ~IFramePreprocessor() {};
 };
 

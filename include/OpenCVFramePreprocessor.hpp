@@ -5,7 +5,7 @@
 #include <opencv2/dnn.hpp>
 #include "IFramePreprocessor.hpp"
 
-class OpenCVFramePreprocessor : public IFramePreprocessor<cv::Mat>
+class OpenCVFramePreprocessor : public IFramePreprocessor<cv::Mat, cv::Mat>
 {
     public:
         OpenCVFramePreprocessor(float scale, cv::Size input_size, cv::Scalar mean, bool swap_rb);

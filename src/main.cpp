@@ -65,7 +65,7 @@ int main(int argc, char* argv[]) {
     const double kScaleFactor = 1.0 / 255.0;
 
     // Create object detector
-    ObjectDetector<cv::Mat, std::vector<cv::Mat>> object_detector(
+    ObjectDetector<cv::Mat, cv::Mat, std::vector<cv::Mat>> object_detector(
         std::make_unique<OpenCVFramePreprocessor>(kScaleFactor, kFrameSize, kMeanValue, true),
         std::make_unique<OpenCVDnnInferenceEngine>(kModelConfigPath, kModelWeightPath),
         std::make_unique<OpenCVFramePostprocessor>(kConfThreshold, kNmsThreshold, kModelClassesPath, kModelClassesColorsPath),

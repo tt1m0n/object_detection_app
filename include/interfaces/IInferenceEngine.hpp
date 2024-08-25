@@ -8,12 +8,12 @@
  * (cv::Mat, cv::cuda::GpuMat, etc) and produces inference results of type InferenceResult (std::vector<cv::Mat>,
  * std::vector<cv::cuda::GpuMat>, etc).
  */
-template <typename FrameType, typename InferenceResult>
+template <typename BlobType, typename InferenceResult>
 class IInferenceEngine
 {
     public:
         IInferenceEngine() {};
-        virtual void process(FrameType& frame_type, InferenceResult& res) = 0;
+        virtual void process(BlobType& frame_type, InferenceResult& res) = 0;
         virtual ~IInferenceEngine() {};
 };
 

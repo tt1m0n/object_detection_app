@@ -16,6 +16,7 @@ endif()
 find_package(OpenCV 4.1 REQUIRED)
 find_package(OpenGL REQUIRED)
 find_package(glfw3 REQUIRED)
+find_package(OpenVINO REQUIRED)
 
 # set imgui directory
 set(IMGUI_DIR ${CMAKE_SOURCE_DIR}/third_party/imgui)
@@ -34,11 +35,16 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 include_directories(${OPENGL_INCLUDE_DIRS})
 include_directories(${GLFW_INCLUDE_DIRS})
 include_directories(${YAML_CPP_DIR}/include)
+include_directories(${OpenVINO_INCLUDE_DIRS})
+
 # Add the path to imgui
 include_directories(${IMGUI_DIR})
 include_directories(${GLAD_DIR}/include)
 
+# link directories
 link_directories(${OpenCV_LIBRARY_DIRS})
+link_directories(${OpenVINO_LIBRARY_DIRS})
+
 add_definitions(${OpenCV_DEFINITIONS})
 
 # Add the path to ImGui source files
