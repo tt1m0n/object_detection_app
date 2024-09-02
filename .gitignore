@@ -1,1 +1,2 @@
 resources/model/yolov3.weights
+resources/model/yolov3.onnx
