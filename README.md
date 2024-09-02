@@ -2,6 +2,8 @@
 C++ small application that performs video processing and object detection using YOLO V3 model, Opencv, OpenGL, glfw3 that is provided for object detection and displaying results in a simple graphical user interface (GUI).
 
 ### Build for Ubuntu
+*about OpenVino setupvars.sh script. It should be started in bash because it has dependency to bash while trying to find correct script path or start in zch but from openvino dir. Start using source beause we need script run in same process/terminal, so the environment variable will be setup for our session. Also be careful about setup ~/.bashrc or ~/.zshrc, do not forget source inside these files.
+
 mkdir build && cd build
 cmake ..
 make

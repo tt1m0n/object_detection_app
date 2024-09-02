@@ -16,7 +16,7 @@ endif()
 find_package(OpenCV 4.1 REQUIRED)
 find_package(OpenGL REQUIRED)
 find_package(glfw3 REQUIRED)
-find_package(OpenVINO REQUIRED)
+find_package(InferenceEngine REQUIRED)
 
 # set imgui directory
 set(IMGUI_DIR ${CMAKE_SOURCE_DIR}/third_party/imgui)
@@ -35,7 +35,12 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 include_directories(${OPENGL_INCLUDE_DIRS})
 include_directories(${GLFW_INCLUDE_DIRS})
 include_directories(${YAML_CPP_DIR}/include)
-include_directories(${OpenVINO_INCLUDE_DIRS})
+# Add the OpenVINO include directories using find_package
+if(OpenVINO_FOUND)
+    include_directories(${InferenceEngine_INCLUDE_DIRS})
+else()
+    message(FATAL_ERROR "OpenVINO package not found.")
+endif()
 
 # Add the path to imgui
 include_directories(${IMGUI_DIR})
@@ -43,7 +48,6 @@ include_directories(${GLAD_DIR}/include)
 
 # link directories
 link_directories(${OpenCV_LIBRARY_DIRS})
-link_directories(${OpenVINO_LIBRARY_DIRS})
 
 add_definitions(${OpenCV_DEFINITIONS})
 
@@ -64,6 +68,9 @@ add_executable(object_detector src/main.cpp
                                src/OpenCVFramePostprocessor.cpp
                                src/OpenGLBackend.cpp
                                src/Drawer.cpp
+                               src/OpenVINOFramePreprocessor.cpp
+                               src/OpenVINOInferenceEngine.cpp
+                               src/OpenVINOFramePostprocessor.cpp
                                ${IMGUI_SOURCES}
                                ${IMGUI_IMPL_SOURCES}
                                ${YAML_CPP_SOURCES})
@@ -71,6 +78,7 @@ add_executable(object_detector src/main.cpp
 target_link_libraries(object_detector
     ${OpenCV_LIBRARIES}
     ${OPENGL_LIBRARIES}
+    ${InferenceEngine_LIBRARIES}
     glfw
     glad
     dl)

@@ -1,0 +1,567 @@
+CMakeFiles/object_detector.dir/src/main.cpp.o: \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/src/main.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/7/iostream \
+ /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
+ /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h \
+ /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+ /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+ /usr/include/x86_64-linux-gnu/bits/long-double.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+ /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+ /usr/include/x86_64-linux-gnu/c++/7/bits/cpu_defines.h \
+ /usr/include/c++/7/ostream /usr/include/c++/7/ios \
+ /usr/include/c++/7/iosfwd /usr/include/c++/7/bits/stringfwd.h \
+ /usr/include/c++/7/bits/memoryfwd.h /usr/include/c++/7/bits/postypes.h \
+ /usr/include/c++/7/cwchar /usr/include/wchar.h \
+ /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn.h \
+ /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar.h \
+ /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h /usr/include/c++/7/exception \
+ /usr/include/c++/7/bits/exception.h \
+ /usr/include/c++/7/bits/exception_ptr.h \
+ /usr/include/c++/7/bits/exception_defines.h \
+ /usr/include/c++/7/bits/cxxabi_init_exception.h \
+ /usr/include/c++/7/typeinfo /usr/include/c++/7/bits/hash_bytes.h \
+ /usr/include/c++/7/new /usr/include/c++/7/bits/nested_exception.h \
+ /usr/include/c++/7/bits/move.h /usr/include/c++/7/bits/concept_check.h \
+ /usr/include/c++/7/type_traits /usr/include/c++/7/bits/char_traits.h \
+ /usr/include/c++/7/bits/stl_algobase.h \
+ /usr/include/c++/7/bits/functexcept.h \
+ /usr/include/c++/7/bits/cpp_type_traits.h \
+ /usr/include/c++/7/ext/type_traits.h \
+ /usr/include/c++/7/ext/numeric_traits.h \
+ /usr/include/c++/7/bits/stl_pair.h \
+ /usr/include/c++/7/bits/stl_iterator_base_types.h \
+ /usr/include/c++/7/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/7/debug/assertions.h \
+ /usr/include/c++/7/bits/stl_iterator.h \
+ /usr/include/c++/7/bits/ptr_traits.h /usr/include/c++/7/debug/debug.h \
+ /usr/include/c++/7/bits/predefined_ops.h /usr/include/c++/7/cstdint \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/types.h \
+ /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ /usr/include/c++/7/bits/localefwd.h \
+ /usr/include/x86_64-linux-gnu/c++/7/bits/c++locale.h \
+ /usr/include/c++/7/clocale /usr/include/locale.h \
+ /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/7/cctype \
+ /usr/include/ctype.h /usr/include/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+ /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
+ /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+ /usr/include/c++/7/bits/ios_base.h /usr/include/c++/7/ext/atomicity.h \
+ /usr/include/x86_64-linux-gnu/c++/7/bits/gthr.h \
+ /usr/include/x86_64-linux-gnu/c++/7/bits/gthr-default.h \
+ /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+ /usr/include/x86_64-linux-gnu/bits/sched.h \
+ /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/bits/timex.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+ /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+ /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+ /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ /usr/include/x86_64-linux-gnu/c++/7/bits/atomic_word.h \
+ /usr/include/c++/7/bits/locale_classes.h /usr/include/c++/7/string \
+ /usr/include/c++/7/bits/allocator.h \
+ /usr/include/x86_64-linux-gnu/c++/7/bits/c++allocator.h \
+ /usr/include/c++/7/ext/new_allocator.h \
+ /usr/include/c++/7/bits/ostream_insert.h \
+ /usr/include/c++/7/bits/cxxabi_forced.h \
+ /usr/include/c++/7/bits/stl_function.h \
+ /usr/include/c++/7/backward/binders.h \
+ /usr/include/c++/7/bits/range_access.h \
+ /usr/include/c++/7/initializer_list \
+ /usr/include/c++/7/bits/basic_string.h \
+ /usr/include/c++/7/ext/alloc_traits.h \
+ /usr/include/c++/7/bits/alloc_traits.h /usr/include/c++/7/string_view \
+ /usr/include/c++/7/limits /usr/include/c++/7/bits/functional_hash.h \
+ /usr/include/c++/7/bits/string_view.tcc \
+ /usr/include/c++/7/ext/string_conversions.h /usr/include/c++/7/cstdlib \
+ /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+ /usr/include/x86_64-linux-gnu/sys/types.h \
+ /usr/include/x86_64-linux-gnu/sys/select.h \
+ /usr/include/x86_64-linux-gnu/bits/select.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/select2.h \
+ /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
+ /usr/include/x86_64-linux-gnu/bits/sysmacros.h /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+ /usr/include/c++/7/bits/std_abs.h /usr/include/c++/7/cstdio \
+ /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/libio.h \
+ /usr/include/x86_64-linux-gnu/bits/_G_config.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h /usr/include/c++/7/cerrno \
+ /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/c++/7/bits/basic_string.tcc \
+ /usr/include/c++/7/bits/locale_classes.tcc \
+ /usr/include/c++/7/system_error \
+ /usr/include/x86_64-linux-gnu/c++/7/bits/error_constants.h \
+ /usr/include/c++/7/stdexcept /usr/include/c++/7/streambuf \
+ /usr/include/c++/7/bits/streambuf.tcc \
+ /usr/include/c++/7/bits/basic_ios.h \
+ /usr/include/c++/7/bits/locale_facets.h /usr/include/c++/7/cwctype \
+ /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+ /usr/include/x86_64-linux-gnu/c++/7/bits/ctype_base.h \
+ /usr/include/c++/7/bits/streambuf_iterator.h \
+ /usr/include/x86_64-linux-gnu/c++/7/bits/ctype_inline.h \
+ /usr/include/c++/7/bits/locale_facets.tcc \
+ /usr/include/c++/7/bits/basic_ios.tcc \
+ /usr/include/c++/7/bits/ostream.tcc /usr/include/c++/7/istream \
+ /usr/include/c++/7/bits/istream.tcc /usr/include/c++/7/thread \
+ /usr/include/c++/7/chrono /usr/include/c++/7/ratio \
+ /usr/include/c++/7/ctime /usr/include/c++/7/bits/parse_numbers.h \
+ /usr/include/c++/7/memory /usr/include/c++/7/bits/stl_construct.h \
+ /usr/include/c++/7/bits/stl_uninitialized.h /usr/include/c++/7/utility \
+ /usr/include/c++/7/bits/stl_relops.h \
+ /usr/include/c++/7/bits/stl_tempbuf.h \
+ /usr/include/c++/7/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/7/ext/concurrence.h \
+ /usr/include/c++/7/bits/uses_allocator.h \
+ /usr/include/c++/7/bits/unique_ptr.h /usr/include/c++/7/tuple \
+ /usr/include/c++/7/array /usr/include/c++/7/bits/invoke.h \
+ /usr/include/c++/7/bits/shared_ptr.h \
+ /usr/include/c++/7/bits/shared_ptr_base.h \
+ /usr/include/c++/7/bits/allocated_ptr.h \
+ /usr/include/c++/7/bits/refwrap.h \
+ /usr/include/c++/7/ext/aligned_buffer.h \
+ /usr/include/c++/7/bits/shared_ptr_atomic.h \
+ /usr/include/c++/7/bits/atomic_base.h \
+ /usr/include/c++/7/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/7/backward/auto_ptr.h \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/third_party/yaml-cpp/include/yaml-cpp/yaml.h \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/third_party/yaml-cpp/include/yaml-cpp/parser.h \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/third_party/yaml-cpp/include/yaml-cpp/dll.h \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/third_party/yaml-cpp/include/yaml-cpp/emitter.h \
+ /usr/include/c++/7/cmath /usr/include/math.h \
+ /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+ /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+ /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+ /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+ /usr/include/x86_64-linux-gnu/bits/mathinline.h \
+ /usr/include/c++/7/bits/specfun.h /usr/include/c++/7/tr1/gamma.tcc \
+ /usr/include/c++/7/tr1/special_function_util.h \
+ /usr/include/c++/7/tr1/bessel_function.tcc \
+ /usr/include/c++/7/tr1/special_function_util.h \
+ /usr/include/c++/7/tr1/beta_function.tcc \
+ /usr/include/c++/7/tr1/ell_integral.tcc \
+ /usr/include/c++/7/tr1/exp_integral.tcc \
+ /usr/include/c++/7/tr1/hypergeometric.tcc \
+ /usr/include/c++/7/tr1/legendre_function.tcc \
+ /usr/include/c++/7/tr1/modified_bessel_func.tcc \
+ /usr/include/c++/7/tr1/poly_hermite.tcc \
+ /usr/include/c++/7/tr1/poly_laguerre.tcc \
+ /usr/include/c++/7/tr1/riemann_zeta.tcc /usr/include/c++/7/cstddef \
+ /usr/include/c++/7/sstream /usr/include/c++/7/bits/sstream.tcc \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/third_party/yaml-cpp/include/yaml-cpp/binary.h \
+ /usr/include/c++/7/vector /usr/include/c++/7/bits/stl_vector.h \
+ /usr/include/c++/7/bits/stl_bvector.h /usr/include/c++/7/bits/vector.tcc \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/third_party/yaml-cpp/include/yaml-cpp/emitterdef.h \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/third_party/yaml-cpp/include/yaml-cpp/emittermanip.h \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/third_party/yaml-cpp/include/yaml-cpp/null.h \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/third_party/yaml-cpp/include/yaml-cpp/ostream_wrapper.h \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/third_party/yaml-cpp/include/yaml-cpp/emitterstyle.h \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/third_party/yaml-cpp/include/yaml-cpp/stlemitter.h \
+ /usr/include/c++/7/list /usr/include/c++/7/bits/stl_list.h \
+ /usr/include/c++/7/bits/list.tcc /usr/include/c++/7/set \
+ /usr/include/c++/7/bits/stl_tree.h /usr/include/c++/7/bits/node_handle.h \
+ /usr/include/c++/7/optional \
+ /usr/include/c++/7/bits/enable_special_members.h \
+ /usr/include/c++/7/bits/stl_set.h /usr/include/c++/7/bits/stl_multiset.h \
+ /usr/include/c++/7/map /usr/include/c++/7/bits/stl_map.h \
+ /usr/include/c++/7/bits/stl_multimap.h \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/third_party/yaml-cpp/include/yaml-cpp/exceptions.h \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/third_party/yaml-cpp/include/yaml-cpp/mark.h \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/third_party/yaml-cpp/include/yaml-cpp/noexcept.h \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/third_party/yaml-cpp/include/yaml-cpp/traits.h \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/third_party/yaml-cpp/include/yaml-cpp/node/node.h \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/third_party/yaml-cpp/include/yaml-cpp/node/detail/iterator_fwd.h \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/third_party/yaml-cpp/include/yaml-cpp/node/ptr.h \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/third_party/yaml-cpp/include/yaml-cpp/node/type.h \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/third_party/yaml-cpp/include/yaml-cpp/node/impl.h \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/third_party/yaml-cpp/include/yaml-cpp/node/detail/memory.h \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/third_party/yaml-cpp/include/yaml-cpp/node/detail/node.h \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/third_party/yaml-cpp/include/yaml-cpp/node/detail/node_ref.h \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/third_party/yaml-cpp/include/yaml-cpp/node/detail/node_data.h \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/third_party/yaml-cpp/include/yaml-cpp/node/detail/node_iterator.h \
+ /usr/include/c++/7/iterator /usr/include/c++/7/bits/stream_iterator.h \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/third_party/yaml-cpp/include/yaml-cpp/node/iterator.h \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/third_party/yaml-cpp/include/yaml-cpp/node/detail/iterator.h \
+ /usr/include/c++/7/atomic \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/third_party/yaml-cpp/include/yaml-cpp/node/convert.h \
+ /usr/include/c++/7/unordered_map /usr/include/c++/7/bits/hashtable.h \
+ /usr/include/c++/7/bits/hashtable_policy.h \
+ /usr/include/c++/7/bits/unordered_map.h /usr/include/c++/7/valarray \
+ /usr/include/c++/7/algorithm /usr/include/c++/7/bits/stl_algo.h \
+ /usr/include/c++/7/bits/algorithmfwd.h \
+ /usr/include/c++/7/bits/stl_heap.h \
+ /usr/include/c++/7/bits/uniform_int_dist.h \
+ /usr/include/c++/7/bits/valarray_array.h \
+ /usr/include/c++/7/bits/valarray_array.tcc \
+ /usr/include/c++/7/bits/valarray_before.h \
+ /usr/include/c++/7/bits/slice_array.h \
+ /usr/include/c++/7/bits/valarray_after.h \
+ /usr/include/c++/7/bits/gslice.h /usr/include/c++/7/bits/gslice_array.h \
+ /usr/include/c++/7/bits/mask_array.h \
+ /usr/include/c++/7/bits/indirect_array.h \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/third_party/yaml-cpp/include/yaml-cpp/node/detail/impl.h \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/third_party/yaml-cpp/include/yaml-cpp/node/parse.h \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/third_party/yaml-cpp/include/yaml-cpp/node/emit.h \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/include/FrameQueue.hpp \
+ /usr/include/c++/7/queue /usr/include/c++/7/deque \
+ /usr/include/c++/7/bits/stl_deque.h /usr/include/c++/7/bits/deque.tcc \
+ /usr/include/c++/7/bits/stl_queue.h /usr/include/c++/7/mutex \
+ /usr/include/c++/7/bits/std_mutex.h \
+ /usr/include/c++/7/condition_variable \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/include/OpenCVFrameCollector.hpp \
+ /usr/local/include/opencv4/opencv2/opencv.hpp \
+ /usr/local/include/opencv4/opencv2/opencv_modules.hpp \
+ /usr/local/include/opencv4/opencv2/core.hpp \
+ /usr/local/include/opencv4/opencv2/core/cvdef.h \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+ /usr/local/include/opencv4/opencv2/core/hal/interface.h \
+ /usr/local/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include/emmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include/xmmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include/mmintrin.h \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include/mm_malloc.h \
+ /usr/include/c++/7/stdlib.h \
+ /usr/local/include/opencv4/opencv2/core/version.hpp \
+ /usr/local/include/opencv4/opencv2/core/base.hpp \
+ /usr/include/c++/7/climits \
+ /usr/local/include/opencv4/opencv2/core/cvstd.hpp \
+ /usr/include/c++/7/cstring /usr/include/string.h /usr/include/strings.h \
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+ /usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
+ /usr/local/include/opencv4/opencv2/core/neon_utils.hpp \
+ /usr/local/include/opencv4/opencv2/core/vsx_utils.hpp \
+ /usr/include/assert.h /usr/local/include/opencv4/opencv2/core/check.hpp \
+ /usr/local/include/opencv4/opencv2/core/traits.hpp \
+ /usr/local/include/opencv4/opencv2/core/matx.hpp \
+ /usr/local/include/opencv4/opencv2/core/saturate.hpp \
+ /usr/local/include/opencv4/opencv2/core/fast_math.hpp \
+ /usr/local/include/opencv4/opencv2/core/types.hpp \
+ /usr/include/c++/7/cfloat \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include/float.h \
+ /usr/local/include/opencv4/opencv2/core/mat.hpp \
+ /usr/local/include/opencv4/opencv2/core/bufferpool.hpp \
+ /usr/local/include/opencv4/opencv2/core/mat.inl.hpp \
+ /usr/local/include/opencv4/opencv2/core/persistence.hpp \
+ /usr/local/include/opencv4/opencv2/core/operations.hpp \
+ /usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp \
+ /usr/include/c++/7/complex \
+ /usr/local/include/opencv4/opencv2/core/utility.hpp \
+ /usr/include/c++/7/functional /usr/include/c++/7/bits/std_function.h \
+ /usr/local/include/opencv4/opencv2/core/optim.hpp \
+ /usr/local/include/opencv4/opencv2/core/ovx.hpp \
+ /usr/local/include/opencv4/opencv2/core/cvdef.h \
+ /usr/local/include/opencv4/opencv2/calib3d.hpp \
+ /usr/local/include/opencv4/opencv2/features2d.hpp \
+ /usr/local/include/opencv4/opencv2/flann/miniflann.hpp \
+ /usr/local/include/opencv4/opencv2/flann/defines.h \
+ /usr/local/include/opencv4/opencv2/flann/config.h \
+ /usr/local/include/opencv4/opencv2/core/affine.hpp \
+ /usr/local/include/opencv4/opencv2/dnn.hpp \
+ /usr/local/include/opencv4/opencv2/dnn/dnn.hpp \
+ /usr/local/include/opencv4/opencv2/dnn/version.hpp \
+ /usr/local/include/opencv4/opencv2/dnn/dict.hpp \
+ /usr/local/include/opencv4/opencv2/dnn/layer.hpp \
+ /usr/local/include/opencv4/opencv2/dnn/dnn.inl.hpp \
+ /usr/local/include/opencv4/opencv2/dnn/utils/inference_engine.hpp \
+ /usr/local/include/opencv4/opencv2/dnn/dnn.hpp \
+ /usr/local/include/opencv4/opencv2/flann.hpp \
+ /usr/local/include/opencv4/opencv2/flann/flann_base.hpp \
+ /usr/include/c++/7/cassert \
+ /usr/local/include/opencv4/opencv2/flann/general.h \
+ /usr/local/include/opencv4/opencv2/flann/matrix.h \
+ /usr/local/include/opencv4/opencv2/flann/params.h \
+ /usr/local/include/opencv4/opencv2/flann/any.h \
+ /usr/local/include/opencv4/opencv2/flann/defines.h \
+ /usr/local/include/opencv4/opencv2/flann/saving.h \
+ /usr/local/include/opencv4/opencv2/flann/nn_index.h \
+ /usr/local/include/opencv4/opencv2/flann/result_set.h \
+ /usr/local/include/opencv4/opencv2/flann/all_indices.h \
+ /usr/local/include/opencv4/opencv2/flann/kdtree_index.h \
+ /usr/local/include/opencv4/opencv2/flann/dynamic_bitset.h \
+ /usr/local/include/opencv4/opencv2/flann/dist.h \
+ /usr/local/include/opencv4/opencv2/flann/heap.h \
+ /usr/local/include/opencv4/opencv2/flann/allocator.h \
+ /usr/local/include/opencv4/opencv2/flann/random.h \
+ /usr/local/include/opencv4/opencv2/flann/kdtree_single_index.h \
+ /usr/local/include/opencv4/opencv2/flann/kmeans_index.h \
+ /usr/local/include/opencv4/opencv2/flann/logger.h \
+ /usr/local/include/opencv4/opencv2/flann/composite_index.h \
+ /usr/local/include/opencv4/opencv2/flann/linear_index.h \
+ /usr/local/include/opencv4/opencv2/flann/hierarchical_clustering_index.h \
+ /usr/local/include/opencv4/opencv2/flann/lsh_index.h \
+ /usr/local/include/opencv4/opencv2/flann/lsh_table.h \
+ /usr/include/c++/7/iomanip /usr/include/c++/7/locale \
+ /usr/include/c++/7/bits/locale_facets_nonio.h \
+ /usr/include/x86_64-linux-gnu/c++/7/bits/time_members.h \
+ /usr/include/x86_64-linux-gnu/c++/7/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/7/bits/codecvt.h \
+ /usr/include/c++/7/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/7/bits/locale_conv.h \
+ /usr/include/c++/7/bits/stringfwd.h /usr/include/c++/7/bits/allocator.h \
+ /usr/include/c++/7/bits/codecvt.h /usr/include/c++/7/bits/unique_ptr.h \
+ /usr/include/c++/7/bits/quoted_string.h /usr/include/c++/7/math.h \
+ /usr/local/include/opencv4/opencv2/flann/autotuned_index.h \
+ /usr/local/include/opencv4/opencv2/flann/ground_truth.h \
+ /usr/local/include/opencv4/opencv2/flann/index_testing.h \
+ /usr/local/include/opencv4/opencv2/flann/timer.h \
+ /usr/local/include/opencv4/opencv2/flann/sampling.h \
+ /usr/local/include/opencv4/opencv2/highgui.hpp \
+ /usr/local/include/opencv4/opencv2/imgcodecs.hpp \
+ /usr/local/include/opencv4/opencv2/videoio.hpp \
+ /usr/local/include/opencv4/opencv2/imgproc.hpp \
+ /usr/local/include/opencv4/opencv2/ml.hpp \
+ /usr/local/include/opencv4/opencv2/ml/ml.inl.hpp \
+ /usr/local/include/opencv4/opencv2/objdetect.hpp \
+ /usr/local/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
+ /usr/local/include/opencv4/opencv2/photo.hpp \
+ /usr/local/include/opencv4/opencv2/shape.hpp \
+ /usr/local/include/opencv4/opencv2/shape/emdL1.hpp \
+ /usr/local/include/opencv4/opencv2/shape/shape_transformer.hpp \
+ /usr/local/include/opencv4/opencv2/shape/hist_cost.hpp \
+ /usr/local/include/opencv4/opencv2/shape/shape_distance.hpp \
+ /usr/local/include/opencv4/opencv2/stitching.hpp \
+ /usr/local/include/opencv4/opencv2/stitching/warpers.hpp \
+ /usr/local/include/opencv4/opencv2/stitching/detail/warpers.hpp \
+ /usr/local/include/opencv4/opencv2/core/cuda.hpp \
+ /usr/local/include/opencv4/opencv2/core/cuda_types.hpp \
+ /usr/local/include/opencv4/opencv2/core/cuda.inl.hpp \
+ /usr/local/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp \
+ /usr/local/include/opencv4/opencv2/stitching/detail/warpers.hpp \
+ /usr/local/include/opencv4/opencv2/stitching/detail/matchers.hpp \
+ /usr/local/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp \
+ /usr/local/include/opencv4/opencv2/stitching/detail/matchers.hpp \
+ /usr/local/include/opencv4/opencv2/stitching/detail/util.hpp \
+ /usr/local/include/opencv4/opencv2/stitching/detail/util_inl.hpp \
+ /usr/local/include/opencv4/opencv2/stitching/detail/camera.hpp \
+ /usr/local/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp \
+ /usr/local/include/opencv4/opencv2/stitching/detail/seam_finders.hpp \
+ /usr/local/include/opencv4/opencv2/stitching/detail/blenders.hpp \
+ /usr/local/include/opencv4/opencv2/stitching/detail/camera.hpp \
+ /usr/local/include/opencv4/opencv2/superres.hpp \
+ /usr/local/include/opencv4/opencv2/superres/optical_flow.hpp \
+ /usr/local/include/opencv4/opencv2/video.hpp \
+ /usr/local/include/opencv4/opencv2/video/tracking.hpp \
+ /usr/local/include/opencv4/opencv2/video/background_segm.hpp \
+ /usr/local/include/opencv4/opencv2/videostab.hpp \
+ /usr/local/include/opencv4/opencv2/videostab/stabilizer.hpp \
+ /usr/local/include/opencv4/opencv2/videostab/global_motion.hpp \
+ /usr/include/c++/7/fstream \
+ /usr/include/x86_64-linux-gnu/c++/7/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/7/bits/c++io.h \
+ /usr/include/c++/7/bits/fstream.tcc \
+ /usr/local/include/opencv4/opencv2/videostab/optical_flow.hpp \
+ /usr/local/include/opencv4/opencv2/videostab/motion_core.hpp \
+ /usr/local/include/opencv4/opencv2/videostab/outlier_rejection.hpp \
+ /usr/local/include/opencv4/opencv2/videostab/motion_stabilizing.hpp \
+ /usr/local/include/opencv4/opencv2/videostab/frame_source.hpp \
+ /usr/local/include/opencv4/opencv2/videostab/log.hpp \
+ /usr/local/include/opencv4/opencv2/videostab/inpainting.hpp \
+ /usr/local/include/opencv4/opencv2/videostab/fast_marching.hpp \
+ /usr/local/include/opencv4/opencv2/videostab/fast_marching_inl.hpp \
+ /usr/local/include/opencv4/opencv2/videostab/deblurring.hpp \
+ /usr/local/include/opencv4/opencv2/videostab/wobble_suppression.hpp \
+ /usr/local/include/opencv4/opencv2/videostab/ring_buffer.hpp \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/include/interfaces/IFrameCollector.hpp \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/include/OpenCVFramePreprocessor.hpp \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/include/interfaces/IFramePreprocessor.hpp \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/include/OpenCVDnnInferenceEngine.hpp \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/include/interfaces/IInferenceEngine.hpp \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/include/OpenCVFramePostprocessor.hpp \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/include/interfaces/IFramePostprocessor.hpp \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/include/ObjectDetector.hpp \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/include/FrameQueue.hpp \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/include/OpenVINOFramePreprocessor.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/openvino.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/core.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/attribute_adapter.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/any.hpp \
+ /usr/include/c++/7/typeindex \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/attribute_visitor.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/type.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/core_visibility.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/visibility.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/deprecated.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/except.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/runtime_attribute.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/node_vector.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/rtti.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/enum_names.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/axis_set.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/axis_vector.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/coordinate.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/shape.hpp \
+ /usr/include/c++/7/numeric /usr/include/c++/7/bits/stl_numeric.h \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/strides.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/coordinate_diff.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/dimension.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/interval.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/enum_mask.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/graph_util.hpp \
+ /usr/include/c++/7/stack /usr/include/c++/7/bits/stl_stack.h \
+ /usr/include/c++/7/unordered_set /usr/include/c++/7/bits/unordered_set.h \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/model.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/node.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/descriptor/input.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/descriptor/tensor.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/partial_shape.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/rank.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/op/util/attr_types.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/type/element_type.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/type/bfloat16.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/type/float16.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/runtime/tensor.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/runtime/allocator.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/descriptor/output.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/node_output.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/node_input.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/op/util/variable.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/op/util/variable_value.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/runtime/host_tensor.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/descriptor/output.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/descriptor/input.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/descriptor/tensor.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/partial_shape.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/attribute_adapter.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/enum_names.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/check.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/except.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/deprecated.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/ngraph_visibility.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/visibility.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/type.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/dimension.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/interval.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/op/util/attr_types.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/rank.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/shape.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/axis_set.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/strides.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/type/element_type.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/type/bfloat16.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/type/float16.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/node_output.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/runtime/tensor.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/type/element_type_traits.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/type/element_type_traits.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/op/assign.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/op/util/assign_base.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/op/sink.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/op/op.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/op/util/variable_extension.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/op/parameter.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/layout.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/op/read_value.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/op/util/read_value_base.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/op/result.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/pass/serialize.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/opsets/opset.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/factory.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/node.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/attribute_visitor.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/coordinate.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/coordinate_diff.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/node_input.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/op/util/op_annotations.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/op/util/variable.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/op/util/variable_value.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/output_vector.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/opsets/opset.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/pass/pass.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/pass/pass_config.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/rt_info.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/validation_util.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/op/constant.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/runtime/shared_buffer.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/runtime/aligned_buffer.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/util.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/axis_vector.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/graph_util.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/function.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/op/assign.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/op/sink.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/op/op.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/op/util/variable_extension.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/op/parameter.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/op/read_value.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/ngraph/op/result.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/version.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/preprocess/color_format.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/preprocess/input_info.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/preprocess/input_model_info.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/preprocess/input_tensor_info.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/preprocess/preprocess_steps.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/preprocess/resize_algorithm.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/preprocess/output_info.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/preprocess/output_model_info.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/preprocess/output_tensor_info.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/preprocess/postprocess_steps.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/preprocess/pre_post_process.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/runtime/runtime.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/runtime/core.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/extension.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/core/op_extension.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/runtime/common.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/runtime/compiled_model.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/runtime/infer_request.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/runtime/profiling_info.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/runtime/variable_state.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/runtime/properties.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/runtime/remote_context.hpp \
+ /home/omakovskyi/Downloads/l_openvino_toolkit_ubuntu18_2023.3.0.13775.ceeafaf64f3_x86_64/runtime/include/openvino/runtime/remote_tensor.hpp \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/include/OpenVINOInferenceEngine.hpp \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/include/OpenVINOFramePostprocessor.hpp \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/include/Drawer.hpp \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/include/interfaces/IGui.hpp \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/include/DearImGui.hpp \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/third_party/imgui/imgui.h \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/third_party/imgui/imconfig.h \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/include/interfaces/IDearImgBackend.hpp \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/include/OpenGLBackend.hpp \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/third_party/glad/include/glad/gl.h \
+ /home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/third_party/glad/include/KHR/khrplatform.h \
+ /usr/include/GLFW/glfw3.h /usr/include/GL/gl.h

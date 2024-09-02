@@ -1,0 +1,4 @@
+/home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/build/CMakeFiles/glad.dir
+/home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/build/CMakeFiles/object_detector.dir
+/home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/build/CMakeFiles/edit_cache.dir
+/home/omakovskyi/Desktop/my_topics/jobss/Cvedia_tech_task/object_detection_app/build/CMakeFiles/rebuild_cache.dir

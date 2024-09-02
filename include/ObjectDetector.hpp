@@ -51,7 +51,7 @@ class ObjectDetector
 {
     public:
         ObjectDetector(std::unique_ptr<IFramePreprocessor<FrameType, BlobType>> frame_preprocessor,
-                       std::unique_ptr<IInferenceEngine<FrameType, InferenceInfoType>> inference_engine,
+                       std::unique_ptr<IInferenceEngine<BlobType, InferenceInfoType>> inference_engine,
                        std::unique_ptr<IFramePostprocessor<FrameType, InferenceInfoType>> frame_post_processor,
                        ObjectDetectorConfig<FrameType>& config);
 
@@ -71,7 +71,7 @@ class ObjectDetector
 
     private:
         std::unique_ptr<IFramePreprocessor<FrameType, BlobType>> frame_preprocessor_;
-        std::unique_ptr<IInferenceEngine<FrameType, InferenceInfoType>> inference_engine_;
+        std::unique_ptr<IInferenceEngine<BlobType, InferenceInfoType>> inference_engine_;
         std::unique_ptr<IFramePostprocessor<FrameType, InferenceInfoType>> frame_postprocessor_;
         ObjectDetectorConfig<FrameType>& cfg_;
 };
@@ -79,7 +79,7 @@ class ObjectDetector
 template <typename FrameType, typename BlobType, typename InferenceInfoType>
 ObjectDetector<FrameType, BlobType, InferenceInfoType>::ObjectDetector(
         std::unique_ptr<IFramePreprocessor<FrameType, BlobType>> frame_preprocessor,
-        std::unique_ptr<IInferenceEngine<FrameType,InferenceInfoType>> inference_engine,
+        std::unique_ptr<IInferenceEngine<BlobType,InferenceInfoType>> inference_engine,
         std::unique_ptr<IFramePostprocessor<FrameType, InferenceInfoType>> frame_post_processor,
         ObjectDetectorConfig<FrameType>& config)
         : frame_preprocessor_(std::move(frame_preprocessor)),
@@ -104,13 +104,15 @@ void ObjectDetector<FrameType, BlobType, InferenceInfoType>::run() {
             const FrameType frame_ogininal = cfg_.input_frame_queue_.get();
             BlobType blob = frame_preprocessor_->run(frame_ogininal);
 
+            std::cout << "Preprocessor finish" << std::endl;
+
             InferenceInfoType inference_res;
             inference_engine_->process(blob, inference_res);
 
-            FrameType frame_processed = frame_ogininal.clone();
-            frame_postprocessor_->run(frame_processed, inference_res);
+            // FrameType frame_processed = frame_ogininal.clone();
+            // frame_postprocessor_->run(frame_processed, inference_res);
 
-            cfg_.out_frames_queue_.push(std::make_pair(frame_ogininal, frame_processed));
+            // cfg_.out_frames_queue_.push(std::make_pair(frame_ogininal, frame_processed));
         }
     }
 }

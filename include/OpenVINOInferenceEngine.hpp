@@ -3,23 +3,24 @@
 
 #include "IInferenceEngine.hpp"
 
-#include <inference_engine.hpp>
 #include "openvino/openvino.hpp"
 
 using namespace ov::preprocess;
 
-class OpenVINOInferenceEngine : public IInferenceEngine<InferenceEngine::Blob::Ptr, std::vector<InferenceEngine::Blob::Ptr>>
+class OpenVINOInferenceEngine : public IInferenceEngine<ov::Tensor, ov::Tensor>
 {
     public:
-        OpenVINOInferenceEngine(const std::string& model_xml_path, const std::string& model_bin_path);
-        void process(InferenceEngine::Blob::Ptr& frame, std::vector<InferenceEngine::Blob::Ptr>& res) override;
+        explicit OpenVINOInferenceEngine(const std::string& model_path);
+        void process(ov::Tensor& frame, ov::Tensor& res) override;
         ~OpenVINOInferenceEngine();
 
     private:
-        InferenceEngine::Core ie_;
-        InferenceEngine::CNNNetwork network_;
-        InferenceEngine::ExecutableNetwork executable_network_;
-        InferenceEngine::InferRequest infer_request_;
+        ov::Core core_;                          // OpenVINO Core object
+        std::shared_ptr<ov::Model> network_;     // OpenVINO Model object
+        ov::CompiledModel compiled_model_;       // Compiled model object
+        ov::InferRequest infer_request_;         // Inference request object
+        std::string input_blob_name_;            // Name of the input tensor
+        std::string output_blob_name_;           // Name of the output tensor};
 };
 
 #endif // OPENVINOINFERENCEENGINE_HPP_

@@ -5,11 +5,18 @@
 #include <yaml-cpp/yaml.h>
 
 #include "FrameQueue.hpp"
+
+// OpenCV includes
 #include "OpenCVFrameCollector.hpp"
 #include "OpenCVFramePreprocessor.hpp"
 #include "OpenCVDnnInferenceEngine.hpp"
 #include "OpenCVFramePostprocessor.hpp"
 #include "ObjectDetector.hpp"
+
+// OpenVINO includes
+#include "OpenVINOFramePreprocessor.hpp"
+#include "OpenVINOInferenceEngine.hpp"
+#include "OpenVINOFramePostprocessor.hpp"
 
 #include "Drawer.hpp"
 #include "DearImGui.hpp"
@@ -34,6 +41,7 @@ int main(int argc, char* argv[]) {
     // Access configuration values
     const std::string kModelConfigPath = kExePrefix + config["modelConfigPath"].as<std::string>();
     const std::string kModelWeightPath = kExePrefix + config["modelWeightPath"].as<std::string>();
+    const std::string kOnnxYolo3ModelPath = kExePrefix + config["onnxYolo3ModelPath"].as<std::string>();
     const std::string kModelClassesPath = kExePrefix + config["modelClassesPath"].as<std::string>();
     const std::string kModelClassesColorsPath = kExePrefix+ config["modelClassesColorsPath"].as<std::string>();
 
@@ -65,10 +73,16 @@ int main(int argc, char* argv[]) {
     const double kScaleFactor = 1.0 / 255.0;
 
     // Create object detector
-    ObjectDetector<cv::Mat, cv::Mat, std::vector<cv::Mat>> object_detector(
-        std::make_unique<OpenCVFramePreprocessor>(kScaleFactor, kFrameSize, kMeanValue, true),
-        std::make_unique<OpenCVDnnInferenceEngine>(kModelConfigPath, kModelWeightPath),
-        std::make_unique<OpenCVFramePostprocessor>(kConfThreshold, kNmsThreshold, kModelClassesPath, kModelClassesColorsPath),
+    // ObjectDetector<cv::Mat, cv::Mat, std::vector<cv::Mat>> object_detector(
+    //     std::make_unique<OpenCVFramePreprocessor>(kScaleFactor, kFrameSize, kMeanValue, true),
+    //     std::make_unique<OpenCVDnnInferenceEngine>(kModelConfigPath, kModelWeightPath),
+    //     std::make_unique<OpenCVFramePostprocessor>(kConfThreshold, kNmsThreshold, kModelClassesPath, kModelClassesColorsPath),
+    //     object_detector_config);
+
+    ObjectDetector<cv::Mat, ov::Tensor, ov::Tensor> object_detector(
+        std::make_unique<OpenVINOFramePreprocessor>(kScaleFactor, kFrameSize, kMeanValue, true),
+        std::make_unique<OpenVINOInferenceEngine>(kOnnxYolo3ModelPath),
+        std::make_unique<OpenVINOFramePostprocessor>(),
         object_detector_config);
 
     // Start separate thread to run object detector
@@ -77,11 +91,11 @@ int main(int argc, char* argv[]) {
     });
 
     // Draw frames in GUI
-    auto gui = std::make_unique<DearImGui<cv::Mat>>(std::make_unique<OpenGLBackend>(),
-        object_detector_out_queue,
-        tracker_object_detector_done, tracker_is_gui_closed);
-    Drawer drawer(std::move(gui));
-    drawer.run();
+    // auto gui = std::make_unique<DearImGui<cv::Mat>>(std::make_unique<OpenGLBackend>(),
+    //     object_detector_out_queue,
+    //     tracker_object_detector_done, tracker_is_gui_closed);
+    // Drawer drawer(std::move(gui));
+    // drawer.run();
 
     collector_thread.join();
     object_detector_thread.join();

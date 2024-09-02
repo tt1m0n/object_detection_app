@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "Taskfile": "yaml",
+        "*.tcc": "cpp",
+        "istream": "cpp",
+        "ostream": "cpp",
+        "stop_token": "cpp",
+        "typeinfo": "cpp"
+    }
+}
